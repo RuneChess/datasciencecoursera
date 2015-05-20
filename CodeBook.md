@@ -6,7 +6,11 @@ output: html_document
 ---
 
 The file "means_by_activity_and_subject.txt" is a tidy data set containing aggregated data collected from the accelerometers from the Samsung Galaxy S smartphone.
-The tiday data set consists of 1 header row and 180 data rows. Each row has 68 columns. Below is a description of the columns
+<p>
+My full data set (not included here) is based on
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip which contains data collected from the accelerometers from the Samsung Galaxy S smartphone. See full description at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+<p>
+My tidy data set consists of 1 header row and 180 data rows. Each row has 68 columns. Below is a description of the columns
 <ul>
 <li> Column 1 - Activity: Type of activity performed. There are 6 different activities: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 <li> Column 2 - Subject: The person performing the activity in column 1. Persons are numbered 1..30.
